@@ -1,0 +1,820 @@
+TY  - JOUR
+TI  - Better Than Reference in Low-Light Image Enhancement: Conditional Re-Enhancement Network
+T2  - IEEE Transactions on Image Processing
+SP  - 759
+EP  - 772
+AU  - Y. Zhang
+AU  - X. Di
+AU  - B. Zhang
+AU  - R. Ji
+AU  - C. Wang
+PY  - 2022
+KW  - Image color analysis
+KW  - Brightness
+KW  - Colored noise
+KW  - Image enhancement
+KW  - Training
+KW  - Distortion
+KW  - Noise reduction
+KW  - Low-light image
+KW  - image enhancement
+KW  - denoising
+KW  - color correction
+DO  - 10.1109/TIP.2021.3135473
+JO  - IEEE Transactions on Image Processing
+IS  - 
+SN  - 1941-0042
+VO  - 31
+VL  - 31
+JA  - IEEE Transactions on Image Processing
+Y1  - 2022
+AB  - Low-light images suffer from severe noise, low brightness, low contrast, etc. In previous researches, many image enhancement methods have been proposed, but few methods can deal with these problems simultaneously. In this paper, to solve these problems simultaneously, we propose a low-light image enhancement method that can be combined with supervised learning and previous HSV (Hue, Saturation, Value) or Retinex model-based image enhancement methods. First, we analyse the relationship between the HSV color space and the Retinex theory, and show that the V channel (V channel in HSV color space, equals the maximum channel in RGB color space) of the enhanced image can well represent the contrast and brightness enhancement process. Then, a data-driven conditional re-enhancement network (denoted as CRENet) is proposed. The network takes low-light images as input and the enhanced V channel (V channel of the enhanced image) as a condition during testing, and then it can re-enhance the contrast and brightness of the low-light image and at the same time reduce noise and color distortion. In addition, it takes 23 ms to process a color image with the resolution 400*600 on a 1080Ti GPU. Finally, some comparative experiments are implemented to prove the effectiveness of the method. The results show that the method proposed in this paper can significantly improve the quality of the enhanced image, and by combining it with other image contrast enhancement methods, the final enhancement result can even be better than the reference image in contrast and brightness when the contrast and brightness of the reference are not good.
+ER  - 
+
+TY  - JOUR
+TI  - Progressive Joint Low-Light Enhancement and Noise Removal for Raw Images
+T2  - IEEE Transactions on Image Processing
+SP  - 2390
+EP  - 2404
+AU  - Y. Lu
+AU  - S. -W. Jung
+PY  - 2022
+KW  - Noise reduction
+KW  - Image color analysis
+KW  - Colored noise
+KW  - Cameras
+KW  - Lighting
+KW  - Estimation
+KW  - Task analysis
+KW  - Convolutional neural network
+KW  - low-light image denoising
+KW  - low-light image enhancement
+DO  - 10.1109/TIP.2022.3155948
+JO  - IEEE Transactions on Image Processing
+IS  - 
+SN  - 1941-0042
+VO  - 31
+VL  - 31
+JA  - IEEE Transactions on Image Processing
+Y1  - 2022
+AB  - Low-light imaging on mobile devices is typically challenging due to insufficient incident light coming through the relatively small aperture, resulting in low image quality. Most of the previous works on low-light imaging focus either only on a single task such as illumination adjustment, color enhancement, or noise removal; or on a joint illumination adjustment and denoising task that heavily relies on short-long exposure image pairs from specific camera models. These approaches are less practical and generalizable in real-world settings where camera-specific joint enhancement and restoration is required. In this paper, we propose a low-light imaging framework that performs joint illumination adjustment, color enhancement, and denoising to tackle this problem. Considering the difficulty in model-specific data collection and the ultra-high definition of the captured images, we design two branches: a coefficient estimation branch and a joint operation branch. The coefficient estimation branch works in a low-resolution space and predicts the coefficients for enhancement via bilateral learning, whereas the joint operation branch works in a full-resolution space and progressively performs joint enhancement and denoising. In contrast to existing methods, our framework does not need to recollect massive data when adapted to another camera model, which significantly reduces the efforts required to fine-tune our approach for practical usage. Through extensive experiments, we demonstrate its great potential in real-world low-light imaging applications.
+ER  - 
+
+TY  - JOUR
+TI  - Sparse Gradient Regularized Deep Retinex Network for Robust Low-Light Image Enhancement
+T2  - IEEE Transactions on Image Processing
+SP  - 2072
+EP  - 2086
+AU  - W. Yang
+AU  - W. Wang
+AU  - H. Huang
+AU  - S. Wang
+AU  - J. Liu
+PY  - 2021
+KW  - Lighting
+KW  - Image restoration
+KW  - Image enhancement
+KW  - Image coding
+KW  - Noise reduction
+KW  - Atmospheric modeling
+KW  - Minimization
+KW  - Low-light enhancement
+KW  - Retinex model
+KW  - sparse gradient regularization
+KW  - residual dense network
+KW  - denoising
+DO  - 10.1109/TIP.2021.3050850
+JO  - IEEE Transactions on Image Processing
+IS  - 
+SN  - 1941-0042
+VO  - 30
+VL  - 30
+JA  - IEEE Transactions on Image Processing
+Y1  - 2021
+AB  - Due to the absence of a desirable objective for low-light image enhancement, previous data-driven methods may provide undesirable enhanced results including amplified noise, degraded contrast and biased colors. In this work, inspired by Retinex theory, we design an end-to-end signal prior-guided layer separation and data-driven mapping network with layer-specified constraints for single-image low-light enhancement. A Sparse Gradient Minimization sub-Network (SGM-Net) is constructed to remove the low-amplitude structures and preserve major edge information, which facilitates extracting paired illumination maps of low/normal-light images. After the learned decomposition, two sub-networks (Enhance-Net and Restore-Net) are utilized to predict the enhanced illumination and reflectance maps, respectively, which helps stretch the contrast of the illumination map and remove intensive noise in the reflectance map. The effects of all these configured constraints, including the signal structure regularization and losses, combine together reciprocally, which leads to good reconstruction results in overall visual quality. The evaluation on both synthetic and real images, particularly on those containing intensive noise, compression artifacts and their interleaved artifacts, shows the effectiveness of our novel models, which significantly outperforms the state-of-the-art methods.
+ER  - 
+
+TY  - JOUR
+TI  - Low-Light Image Enhancement via the Absorption Light Scattering Model
+T2  - IEEE Transactions on Image Processing
+SP  - 5679
+EP  - 5690
+AU  - Y. -F. Wang
+AU  - H. -M. Liu
+AU  - Z. -W. Fu
+PY  - 2019
+KW  - Lighting
+KW  - Atmospheric modeling
+KW  - Imaging
+KW  - Image color analysis
+KW  - Mathematical model
+KW  - Image enhancement
+KW  - Absorption
+KW  - Low-light image enhancement
+KW  - absorption-light-scattering-model
+KW  - mean-standard-deviation
+KW  - minimal channel
+DO  - 10.1109/TIP.2019.2922106
+JO  - IEEE Transactions on Image Processing
+IS  - 11
+SN  - 1941-0042
+VO  - 28
+VL  - 28
+JA  - IEEE Transactions on Image Processing
+Y1  - Nov. 2019
+AB  - Low light often leads to poor image visibility, which can easily affect the performance of computer vision algorithms. First, this paper proposes the absorption light scattering model (ALSM), which can be used to reasonably explain the absorbed light imaging process for low-light images. In addition, the absorbing light scattering image obtained via ALSM under a sufficient and uniform illumination can reproduce hidden outlines and details from the low-light image. Then, we identify that the minimum channel of ALSM obtained above exhibits high local similarity. This similarity can be constrained by superpixels, which effectively prevent the use of gradient operations at the edges so that the noise is not amplified quickly during enhancement. Finally, by analyzing the monotonicity between the scene reflection and the atmospheric light or transmittance in ALSM, a new low-light image enhancement method is identified. We replace atmospheric light with inverted atmospheric light to reduce the contribution of atmospheric light in the imaging results. Moreover, a soft jointed mean-standard-deviation (MSD) mechanism is proposed that directly acts on the patches represented by the superpixels. The MSD can obtain a smaller transmittance than that obtained by the minimum strategy, and it can be automatically adjusted according to the information of the image. The experiments on challenging low-light images are conducted to reveal the advantages of our method compared with other powerful techniques.
+ER  - 
+
+TY  - JOUR
+TI  - Lightening Network for Low-Light Image Enhancement
+T2  - IEEE Transactions on Image Processing
+SP  - 7984
+EP  - 7996
+AU  - L. -W. Wang
+AU  - Z. -S. Liu
+AU  - W. -C. Siu
+AU  - D. P. K. Lun
+PY  - 2020
+KW  - Feature extraction
+KW  - Task analysis
+KW  - Lighting
+KW  - Image resolution
+KW  - Reflectivity
+KW  - Image enhancement
+KW  - Data mining
+KW  - Low-light image enhancement
+KW  - image processing
+KW  - deep learning
+DO  - 10.1109/TIP.2020.3008396
+JO  - IEEE Transactions on Image Processing
+IS  - 
+SN  - 1941-0042
+VO  - 29
+VL  - 29
+JA  - IEEE Transactions on Image Processing
+Y1  - 2020
+AB  - Low-light image enhancement is a challenging task that has attracted considerable attention. Pictures taken in low-light conditions often have bad visual quality. To address the problem, we regard the low-light enhancement as a residual learning problem that is to estimate the residual between low- and normal-light images. In this paper, we propose a novel Deep Lightening Network (DLN) that benefits from the recent development of Convolutional Neural Networks (CNNs). The proposed DLN consists of several Lightening Back-Projection (LBP) blocks. The LBPs perform lightening and darkening processes iteratively to learn the residual for normal-light estimations. To effectively utilize the local and global features, we also propose a Feature Aggregation (FA) block that adaptively fuses the results of different LBPs. We evaluate the proposed method on different datasets. Numerical results show that our proposed DLN approach outperforms other methods under both objective and subjective metrics.
+ER  - 
+
+TY  - JOUR
+TI  - Band Representation-Based Semi-Supervised Low-Light Image Enhancement: Bridging the Gap Between Signal Fidelity and Perceptual Quality
+T2  - IEEE Transactions on Image Processing
+SP  - 3461
+EP  - 3473
+AU  - W. Yang
+AU  - S. Wang
+AU  - Y. Fang
+AU  - Y. Wang
+AU  - J. Liu
+PY  - 2021
+KW  - Visualization
+KW  - Lighting
+KW  - Neural networks
+KW  - Image enhancement
+KW  - Image color analysis
+KW  - Degradation
+KW  - Visual perception
+KW  - Low light
+KW  - image enhancement
+KW  - perceptual quality
+DO  - 10.1109/TIP.2021.3062184
+JO  - IEEE Transactions on Image Processing
+IS  - 
+SN  - 1941-0042
+VO  - 30
+VL  - 30
+JA  - IEEE Transactions on Image Processing
+Y1  - 2021
+AB  - It has been widely acknowledged that under-exposure causes a variety of visual quality degradation because of intensive noise, decreased visibility, biased color, etc. To alleviate these issues, a novel semi-supervised learning approach is proposed in this paper for low-light image enhancement. More specifically, we propose a deep recursive band network (DRBN) to recover a linear band representation of an enhanced normal-light image based on the guidance of the paired low/normal-light images. Such design philosophy enables the principled network to generate a quality improved one by reconstructing the given bands based upon another learnable linear transformation which is perceptually driven by an image quality assessment neural network. On one hand, the proposed network is delicately developed to obtain a variety of coarse-to-fine band representations, of which the estimations benefit each other in a recursive process mutually. On the other hand, the extracted band representation of the enhanced image in the recursive band learning stage of DRBN is capable of bridging the gap between the restoration knowledge of paired data and the perceptual quality preference to high-quality images. Subsequently, the band recomposition learns to recompose the band representation towards fitting perceptual regularization of high-quality images with the perceptual guidance. The proposed architecture can be flexibly trained with both paired and unpaired data. Extensive experiments demonstrate that our method produces better enhanced results with visually pleasing contrast and color distributions, as well as well-restored structural details.
+ER  - 
+
+TY  - JOUR
+TI  - Enhancing Color Images of Extremely Low Light Scenes Based on RGB/NIR Images Acquisition With Different Exposure Times
+T2  - IEEE Transactions on Image Processing
+SP  - 3586
+EP  - 3597
+AU  - D. Sugimura
+AU  - T. Mikami
+AU  - H. Yamashita
+AU  - T. Hamamoto
+PY  - 2015
+KW  - Color
+KW  - Image color analysis
+KW  - Imaging
+KW  - Colored noise
+KW  - Correlation
+KW  - Image sequences
+KW  - Restoration
+KW  - Reconstruction
+KW  - Sharpening and deblurring
+KW  - Smoothing
+KW  - Low light scene
+KW  - near infrared image
+KW  - Restoration
+KW  - reconstruction
+KW  - sharpening and deblurring
+KW  - smoothing
+KW  - low light scene
+KW  - near infrared image
+DO  - 10.1109/TIP.2015.2448356
+JO  - IEEE Transactions on Image Processing
+IS  - 11
+SN  - 1941-0042
+VO  - 24
+VL  - 24
+JA  - IEEE Transactions on Image Processing
+Y1  - Nov. 2015
+AB  - We propose a novel method to synthesize a noise- and blur-free color image sequence using near-infrared (NIR) images captured in extremely low light conditions. In extremely low light scenes, heavy noise and motion blur are simultaneously produced in the captured images. Our goal is to enhance the color image sequence of an extremely low light scene. In this paper, we augment the imaging system as well as enhancing the image synthesis scheme. We propose a novel imaging system that can simultaneously capture the red, green, blue (RGB) and the NIR images with different exposure times. An RGB image is taken with a long exposure time to acquire sufficient color information and mitigates the effects of heavy noise. By contrast, the NIR images are captured with a short exposure time to measure the structure of the scenes. Our imaging system using different exposure times allows us to ensure sufficient information to reconstruct a clear color image sequence. Using the captured image pairs, we reconstruct a latent color image sequence using an adaptive smoothness condition based on gradient and color correlations. Our experiments using both synthetic images and real image sequences show that our method outperforms other state-of-the-art methods.
+ER  - 
+
+TY  - JOUR
+TI  - Low-Light Enhancement Using a Plug-and-Play Retinex Model With Shrinkage Mapping for Illumination Estimation
+T2  - IEEE Transactions on Image Processing
+SP  - 4897
+EP  - 4908
+AU  - Y. -H. Lin
+AU  - Y. -C. Lu
+PY  - 2022
+KW  - Lighting
+KW  - Optimization
+KW  - Image edge detection
+KW  - Stars
+KW  - Learning systems
+KW  - Linear programming
+KW  - Image quality
+KW  - Low-light image enhancement
+KW  - Retinex model
+KW  - nonconvex optimization
+KW  - Lp shrinkage
+KW  - plug-and-play
+KW  - alternating direction method of multipliers
+DO  - 10.1109/TIP.2022.3189805
+JO  - IEEE Transactions on Image Processing
+IS  - 
+SN  - 1941-0042
+VO  - 31
+VL  - 31
+JA  - IEEE Transactions on Image Processing
+Y1  - 2022
+AB  - Low-light photography conditions degrade image quality. This study proposes a novel Retinex-based low-light enhancement method to correctly decompose an input image into reflectance and illumination. Subsequently, we can improve the viewing experience by adjusting the illumination using intensity and contrast enhancement. Because image decomposition is a highly ill-posed problem, constraints must be properly imposed on the optimization framework. To meet the criteria of ideal Retinex decomposition, we design a nonconvex  $L_{p}$  norm and apply shrinkage mapping to the illumination layer. In addition, edge-preserving filters are introduced using the plug-and-play technique to improve illumination. Pixel-wise weights based on variance and image gradients are adopted to suppress noise and preserve details in the reflectance layer. We choose the alternating direction method of multipliers (ADMM) to solve the problem efficiently. Experimental results on several challenging low-light datasets show that our proposed method can more effectively enhance image brightness as compared with state-of-the-art methods. In addition to subjective observations, the proposed method also achieved competitive performance in objective image quality assessments.
+ER  - 
+
+TY  - JOUR
+TI  - Towards Low Light Enhancement With RAW Images
+T2  - IEEE Transactions on Image Processing
+SP  - 1391
+EP  - 1405
+AU  - H. Huang
+AU  - W. Yang
+AU  - Y. Hu
+AU  - J. Liu
+AU  - L. -Y. Duan
+PY  - 2022
+KW  - Benchmark testing
+KW  - Training
+KW  - Pipelines
+KW  - Image processing
+KW  - Lighting
+KW  - Image enhancement
+KW  - Histograms
+KW  - Low-light enhancement
+KW  - benchmark
+KW  - RAW guidance
+KW  - deep learning
+KW  - factorized enhancement model
+DO  - 10.1109/TIP.2022.3140610
+JO  - IEEE Transactions on Image Processing
+IS  - 
+SN  - 1941-0042
+VO  - 31
+VL  - 31
+JA  - IEEE Transactions on Image Processing
+Y1  - 2022
+AB  - In this paper, we make the first benchmark effort to elaborate on the superiority of using RAW images in the low light enhancement and develop a novel alternative route to utilize RAW images in a more flexible and practical way. Inspired by a full consideration on the typical image processing pipeline, we are inspired to develop a new evaluation framework, Factorized Enhancement Model (FEM), which decomposes the properties of RAW images into measurable factors and provides a tool for exploring how properties of RAW images affect the enhancement performance empirically. The empirical benchmark results show that the Linearity of data and Exposure Time recorded in meta-data play the most critical role, which brings distinct performance gains in various measures over the approaches taking the sRGB images as input. With the insights obtained from the benchmark results in mind, a RAW-guiding Exposure Enhancement Network (REENet) is developed, which makes trade-offs between the advantages and inaccessibility of RAW images in real applications in a way of using RAW images only in the training phase. REENet projects sRGB images into linear RAW domains to apply constraints with corresponding RAW images to reduce the difficulty of modeling training. After that, in the testing phase, our REENet does not rely on RAW images. Experimental results demonstrate not only the superiority of REENet to state-of-the-art sRGB-based methods and but also the effectiveness of the RAW guidance and all components.
+ER  - 
+
+TY  - JOUR
+TI  - Low-Light Image Enhancement via a Deep Hybrid Network
+T2  - IEEE Transactions on Image Processing
+SP  - 4364
+EP  - 4375
+AU  - W. Ren
+AU  - S. Liu
+AU  - L. Ma
+AU  - Q. Xu
+AU  - X. Xu
+AU  - X. Cao
+AU  - J. Du
+AU  - M. -H. Yang
+PY  - 2019
+KW  - Streaming media
+KW  - Image edge detection
+KW  - Image enhancement
+KW  - Lighting
+KW  - Task analysis
+KW  - Cameras
+KW  - Image color analysis
+KW  - Low-light image enhancement
+KW  - convolutional neural network
+KW  - recurrent neural network
+DO  - 10.1109/TIP.2019.2910412
+JO  - IEEE Transactions on Image Processing
+IS  - 9
+SN  - 1941-0042
+VO  - 28
+VL  - 28
+JA  - IEEE Transactions on Image Processing
+Y1  - Sept. 2019
+AB  - Camera sensors often fail to capture clear images or videos in a poorly lit environment. In this paper, we propose a trainable hybrid network to enhance the visibility of such degraded images. The proposed network consists of two distinct streams to simultaneously learn the global content and the salient structures of the clear image in a unified network. More specifically, the content stream estimates the global content of the low-light input through an encoder-decoder network. However, the encoder in the content stream tends to lose some structure details. To remedy this, we propose a novel spatially variant recurrent neural network (RNN) as an edge stream to model edge details, with the guidance of another auto-encoder. The experimental results show that the proposed network favorably performs against the state-of-the-art low-light image enhancement algorithms.
+ER  - 
+
+TY  - JOUR
+TI  - Harnessing Multi-View Perspective of Light Fields for Low-Light Imaging
+T2  - IEEE Transactions on Image Processing
+SP  - 1501
+EP  - 1513
+AU  - M. Lamba
+AU  - K. K. Rachavarapu
+AU  - K. Mitra
+PY  - 2021
+KW  - Image restoration
+KW  - Cameras
+KW  - Light fields
+KW  - Noise reduction
+KW  - Estimation
+KW  - ISO
+KW  - Visualization
+KW  - Low-light
+KW  - light field enhancement
+KW  - light field dataset
+DO  - 10.1109/TIP.2020.3045617
+JO  - IEEE Transactions on Image Processing
+IS  - 
+SN  - 1941-0042
+VO  - 30
+VL  - 30
+JA  - IEEE Transactions on Image Processing
+Y1  - 2021
+AB  - Light Field (LF) offers unique advantages such as post-capture refocusing and depth estimation, but low-light conditions severely limit these capabilities. To restore low-light LFs we should harness the geometric cues present in different LF views, which is not possible using single-frame low-light enhancement techniques. We propose a deep neural network L3Fnet for Low-Light Light Field (L3F) restoration, which not only performs visual enhancement of each LF view but also preserves the epipolar geometry across views. We achieve this by adopting a two-stage architecture for L3Fnet. Stage-I looks at all the LF views to encode the LF geometry. This encoded information is then used in Stage-II to reconstruct each LF view. To facilitate learning-based techniques for low-light LF imaging, we collected a comprehensive LF dataset of various scenes. For each scene, we captured four LFs, one with near-optimal exposure and ISO settings and the others at different levels of low-light conditions varying from low to extreme low-light settings. The effectiveness of the proposed L3Fnet is supported by both visual and numerical comparisons on this dataset. To further analyze the performance of low-light restoration methods, we also propose the L3F-wild dataset that contains LF captured late at night with almost zero lux values. No ground truth is available in this dataset. To perform well on the L3F-wild dataset, any method must adapt to the light level of the captured scene. To do this we use a pre-processing block that makes L3Fnet robust to various degrees of low-light conditions. Lastly, we show that L3Fnet can also be used for low-light enhancement of single-frame images, despite it being engineered for LF data. We do so by converting the single-frame DSLR image into a form suitable to L3Fnet, which we call as pseudo-LF. Our code and dataset is available for download at https://mohitlamba94.github.io/L3Fnet/.
+ER  - 
+
+TY  - JOUR
+TI  - Structure-Revealing Low-Light Image Enhancement Via Robust Retinex Model
+T2  - IEEE Transactions on Image Processing
+SP  - 2828
+EP  - 2841
+AU  - M. Li
+AU  - J. Liu
+AU  - W. Yang
+AU  - X. Sun
+AU  - Z. Guo
+PY  - 2018
+KW  - Lighting
+KW  - Image enhancement
+KW  - Robustness
+KW  - Noise reduction
+KW  - Optimization
+KW  - Task analysis
+KW  - Image color analysis
+KW  - Low-light image enhancement
+KW  - Retinex model
+KW  - structure-revealing
+KW  - noise suppression
+DO  - 10.1109/TIP.2018.2810539
+JO  - IEEE Transactions on Image Processing
+IS  - 6
+SN  - 1941-0042
+VO  - 27
+VL  - 27
+JA  - IEEE Transactions on Image Processing
+Y1  - June 2018
+AB  - Low-light image enhancement methods based on classic Retinex model attempt to manipulate the estimated illumination and to project it back to the corresponding reflectance. However, the model does not consider the noise, which inevitably exists in images captured in low-light conditions. In this paper, we propose the robust Retinex model, which additionally considers a noise map compared with the conventional Retinex model, to improve the performance of enhancing low-light images accompanied by intensive noise. Based on the robust Retinex model, we present an optimization function that includes novel regularization terms for the illumination and reflectance. Specifically, we use ℓ1 norm to constrain the piece-wise smoothness of the illumination, adopt a fidelity term for gradients of the reflectance to reveal the structure details in low-light images, and make the first attempt to estimate a noise map out of the robust Retinex model. To effectively solve the optimization problem, we provide an augmented Lagrange multiplier based alternating direction minimization algorithm without logarithmic transformation. Experimental results demonstrate the effectiveness of the proposed method in low-light image enhancement. In addition, the proposed method can be generalized to handle a series of similar problems, such as the image enhancement for underwater or remote sensing and in hazy or dusty conditions.
+ER  - 
+
+TY  - JOUR
+TI  - LR3M: Robust Low-Light Enhancement via Low-Rank Regularized Retinex Model
+T2  - IEEE Transactions on Image Processing
+SP  - 5862
+EP  - 5876
+AU  - X. Ren
+AU  - W. Yang
+AU  - W. -H. Cheng
+AU  - J. Liu
+PY  - 2020
+KW  - Lighting
+KW  - Robustness
+KW  - Noise reduction
+KW  - Histograms
+KW  - Minimization
+KW  - Visualization
+KW  - Estimation
+KW  - Low-light enhancement
+KW  - denoising
+KW  - retinex model
+KW  - low-rank decomposition
+DO  - 10.1109/TIP.2020.2984098
+JO  - IEEE Transactions on Image Processing
+IS  - 
+SN  - 1941-0042
+VO  - 29
+VL  - 29
+JA  - IEEE Transactions on Image Processing
+Y1  - 2020
+AB  - Noise causes unpleasant visual effects in low-light image/video enhancement. In this paper, we aim to make the enhancement model and method aware of noise in the whole process. To deal with heavy noise which is not handled in previous methods, we introduce a robust low-light enhancement approach, aiming at well enhancing low-light images/videos and suppressing intensive noise jointly. Our method is based on the proposed Low-Rank Regularized Retinex Model (LR3M), which is the first to inject low-rank prior into a Retinex decomposition process to suppress noise in the reflectance map. Our method estimates a piece-wise smoothed illumination and a noise-suppressed reflectance sequentially, avoiding remaining noise in the illumination and reflectance maps which are usually presented in alternative decomposition methods. After getting the estimated illumination and reflectance, we adjust the illumination layer and generate our enhancement result. Furthermore, we apply our LR3M to video low-light enhancement. We consider inter-frame coherence of illumination maps and find similar patches through reflectance maps of successive frames to form the low-rank prior to make use of temporal correspondence. Our method performs well for a wide variety of images and videos, and achieves better quality both in enhancing and denoising, compared with the state-of-the-art methods.
+ER  - 
+
+TY  - JOUR
+TI  - LIME: Low-Light Image Enhancement via Illumination Map Estimation
+T2  - IEEE Transactions on Image Processing
+SP  - 982
+EP  - 993
+AU  - X. Guo
+AU  - Y. Li
+AU  - H. Ling
+PY  - 2017
+KW  - Lighting
+KW  - Estimation
+KW  - Image enhancement
+KW  - Visualization
+KW  - Atmospheric modeling
+KW  - Histograms
+KW  - Image color analysis
+KW  - Illumination estimation
+KW  - illumination (light) transmission
+KW  - low-light image enhancement
+DO  - 10.1109/TIP.2016.2639450
+JO  - IEEE Transactions on Image Processing
+IS  - 2
+SN  - 1941-0042
+VO  - 26
+VL  - 26
+JA  - IEEE Transactions on Image Processing
+Y1  - Feb. 2017
+AB  - When one captures images in low-light conditions, the images often suffer from low visibility. Besides degrading the visual aesthetics of images, this poor quality may also significantly degenerate the performance of many computer vision and multimedia algorithms that are primarily designed for high-quality inputs. In this paper, we propose a simple yet effective low-light image enhancement (LIME) method. More concretely, the illumination of each pixel is first estimated individually by finding the maximum value in R, G, and B channels. Furthermore, we refine the initial illumination map by imposing a structure prior on it, as the final illumination map. Having the well-constructed illumination map, the enhancement can be achieved accordingly. Experiments on a number of challenging low-light images are present to reveal the efficacy of our LIME and show its superiority over several state-of-the-arts in terms of enhancement quality and efficiency.
+ER  - 
+
+TY  - JOUR
+TI  - A Novel Retinex-Based Fractional-Order Variational Model for Images With Severely Low Light
+T2  - IEEE Transactions on Image Processing
+SP  - 3239
+EP  - 3253
+AU  - Z. Gu
+AU  - F. Li
+AU  - F. Fang
+AU  - G. Zhang
+PY  - 2020
+KW  - Lighting
+KW  - Computational modeling
+KW  - TV
+KW  - Topology
+KW  - Atmospheric modeling
+KW  - Image enhancement
+KW  - Analytical models
+KW  - Retinex
+KW  - low-light image
+KW  - fractional-order
+KW  - variational model
+KW  - image enhancement
+KW  - reflectance
+KW  - illumination
+DO  - 10.1109/TIP.2019.2958144
+JO  - IEEE Transactions on Image Processing
+IS  - 
+SN  - 1941-0042
+VO  - 29
+VL  - 29
+JA  - IEEE Transactions on Image Processing
+Y1  - 2020
+AB  - In this paper, we propose a novel Retinex-based fractional-order variational model for severely low-light images. The proposed method is more flexible in controlling the regularization extent than the existing integer-order regularization methods. Specifically, we decompose directly in the image domain and perform the fractional-order gradient total variation regularization on both the reflectance component and the illumination component to get more appropriate estimated results. The merits of the proposed method are as follows: 1) small-magnitude details are maintained in the estimated reflectance. 2) illumination components are effectively removed from the estimated reflectance. 3) the estimated illumination is more likely piecewise smooth. We compare the proposed method with other closely related Retinex-based methods. Experimental results demonstrate the effectiveness of the proposed method.
+ER  - 
+
+TY  - JOUR
+TI  - A Biological Vision Inspired Framework for Image Enhancement in Poor Visibility Conditions
+T2  - IEEE Transactions on Image Processing
+SP  - 1493
+EP  - 1506
+AU  - K. -F. Yang
+AU  - X. -S. Zhang
+AU  - Y. -J. Li
+PY  - 2020
+KW  - Visualization
+KW  - Image enhancement
+KW  - Task analysis
+KW  - Adaptation models
+KW  - Dynamic range
+KW  - Visual systems
+KW  - Noise reduction
+KW  - Nighttime image
+KW  - low-light image
+KW  - HDR image
+KW  - visual adaptation
+KW  - noise suppression
+DO  - 10.1109/TIP.2019.2938310
+JO  - IEEE Transactions on Image Processing
+IS  - 
+SN  - 1941-0042
+VO  - 29
+VL  - 29
+JA  - IEEE Transactions on Image Processing
+Y1  - 2020
+AB  - Image enhancement is an important pre-processing step for many computer vision applications especially regarding the scenes in poor visibility conditions. In this work, we develop a unified two-pathway model inspired by the biological vision, especially the early visual mechanisms, which contributes to image enhancement tasks including low dynamic range (LDR) image enhancement and high dynamic range (HDR) image tone mapping. Firstly, the input image is separated and sent into two visual pathways: structure-pathway and detail-pathway, corresponding to the M- and P-pathway in the early visual system, which code the low- and high-frequency visual information, respectively. In the structure-pathway, an extended biological normalization model is used to integrate the global and local luminance adaptation, which can handle the visual scenes with varying illuminations. On the other hand, the detail enhancement and local noise suppression are achieved in the detail-pathway based on local energy weighting. Finally, the outputs of structure-and detail-pathway are integrated to achieve the low-light image enhancement. In addition, the proposed model can also be used for tone mapping of HDR images with some fine-tuning steps. Extensive experiments on three datasets (two LDR image datasets and one HDR scene dataset) show that the proposed model can handle the visual enhancement tasks mentioned above efficiently and outperform the related state-of-the-art methods.
+ER  - 
+
+TY  - JOUR
+TI  - Burst Photography for Learning to Enhance Extremely Dark Images
+T2  - IEEE Transactions on Image Processing
+SP  - 9372
+EP  - 9385
+AU  - A. S. Karadeniz
+AU  - E. Erdem
+AU  - A. Erdem
+PY  - 2021
+KW  - Photography
+KW  - Image color analysis
+KW  - Pipelines
+KW  - Computer architecture
+KW  - Network architecture
+KW  - Noise measurement
+KW  - Colored noise
+KW  - Computational photography
+KW  - low-light imaging
+KW  - image denoising
+KW  - burst images
+DO  - 10.1109/TIP.2021.3125394
+JO  - IEEE Transactions on Image Processing
+IS  - 
+SN  - 1941-0042
+VO  - 30
+VL  - 30
+JA  - IEEE Transactions on Image Processing
+Y1  - 2021
+AB  - Capturing images under extremely low-light conditions poses significant challenges for the standard camera pipeline. Images become too dark and too noisy, which makes traditional enhancement techniques almost impossible to apply. Recently, learning-based approaches have shown very promising results for this task since they have substantially more expressive capabilities to allow for improved quality. Motivated by these studies, in this paper, we aim to leverage burst photography to boost the performance and obtain much sharper and more accurate RGB images from extremely dark raw images. The backbone of our proposed framework is a novel coarse-to-fine network architecture that generates high-quality outputs progressively. The coarse network predicts a low-resolution, denoised raw image, which is then fed to the fine network to recover fine-scale details and realistic textures. To further reduce the noise level and improve the color accuracy, we extend this network to a permutation invariant structure so that it takes a burst of low-light images as input and merges information from multiple images at the feature-level. Our experiments demonstrate that our approach leads to perceptually more pleasing results than the state-of-the-art methods by producing more detailed and considerably higher quality images.
+ER  - 
+
+TY  - JOUR
+TI  - CERL: A Unified Optimization Framework for Light Enhancement With Realistic Noise
+T2  - IEEE Transactions on Image Processing
+SP  - 4162
+EP  - 4172
+AU  - Z. Chen
+AU  - Y. Jiang
+AU  - D. Liu
+AU  - Z. Wang
+PY  - 2022
+KW  - Noise reduction
+KW  - Optimization
+KW  - Task analysis
+KW  - Noise measurement
+KW  - Adaptation models
+KW  - Training
+KW  - Lighting
+KW  - Image denoising
+KW  - low-light enhancement
+KW  - generative adversarial networks
+KW  - unsupervised learning
+DO  - 10.1109/TIP.2022.3180213
+JO  - IEEE Transactions on Image Processing
+IS  - 
+SN  - 1941-0042
+VO  - 31
+VL  - 31
+JA  - IEEE Transactions on Image Processing
+Y1  - 2022
+AB  - Low-light images captured in the real world are inevitably corrupted by sensor noise. Such noise is spatially variant and highly dependent on the underlying pixel intensity, deviating from the oversimplified assumptions in conventional denoising. Existing light enhancement methods either overlook the important impact of real-world noise during enhancement, or treat noise removal as a separate pre- or post-processing step. We present Coordinated Enhancement for Real-world Low-light Noisy Images (CERL), that seamlessly integrates light enhancement and noise suppression parts into a unified and physics-grounded optimization framework. For the real low-light noise removal part, we customize a self-supervised denoising model that can easily be adapted without referring to clean ground-truth images. For the light enhancement part, we also improve the design of a state-of-the-art backbone. The two parts are then joint formulated into one principled plug-and-play optimization. Our approach is compared against state-of-the-art low-light enhancement methods both qualitatively and quantitatively. Besides standard benchmarks, we further collect and test on a new realistic low-light mobile photography dataset (RLMP), whose mobile-captured photos display heavier realistic noise than those taken by high-quality cameras. CERL consistently produces the most visually pleasing and artifact-free results across all experiments. Our RLMP dataset and codes are available at: https://github.com/VITA-Group/CERL.
+ER  - 
+
+TY  - JOUR
+TI  - STAR: A Structure and Texture Aware Retinex Model
+T2  - IEEE Transactions on Image Processing
+SP  - 5022
+EP  - 5037
+AU  - J. Xu
+AU  - Y. Hou
+AU  - D. Ren
+AU  - L. Liu
+AU  - F. Zhu
+AU  - M. Yu
+AU  - H. Wang
+AU  - L. Shao
+PY  - 2020
+KW  - Lighting
+KW  - Image color analysis
+KW  - Image enhancement
+KW  - Image decomposition
+KW  - Visualization
+KW  - Fans
+KW  - Optimization
+KW  - Retinex decomposition
+KW  - low-light image enhancement
+KW  - color correction
+DO  - 10.1109/TIP.2020.2974060
+JO  - IEEE Transactions on Image Processing
+IS  - 
+SN  - 1941-0042
+VO  - 29
+VL  - 29
+JA  - IEEE Transactions on Image Processing
+Y1  - 2020
+AB  - Retinex theory is developed mainly to decompose an image into the illumination and reflectance components by analyzing local image derivatives. In this theory, larger derivatives are attributed to the changes in reflectance, while smaller derivatives are emerged in the smooth illumination. In this paper, we utilize exponentiated local derivatives (with an exponent  $\gamma $ ) of an observed image to generate its structure map and texture map. The structure map is produced by been amplified with  $\gamma >1$ , while the texture map is generated by been shrank with  $\gamma < 1$ . To this end, we design exponential filters for the local derivatives, and present their capability on extracting accurate structure and texture maps, influenced by the choices of exponents  $\gamma $ . The extracted structure and texture maps are employed to regularize the illumination and reflectance components in Retinex decomposition. A novel Structure and Texture Aware Retinex (STAR) model is further proposed for illumination and reflectance decomposition of a single image. We solve the STAR model by an alternating optimization algorithm. Each sub-problem is transformed into a vectorized least squares regression, with closed-form solutions. Comprehensive experiments on commonly tested datasets demonstrate that, the proposed STAR model produce better quantitative and qualitative performance than previous competing methods, on illumination and reflectance decomposition, low-light image enhancement, and color correction. The code is publicly available at https://github.com/csjunxu/STAR.
+ER  - 
+
+TY  - JOUR
+TI  - EnlightenGAN: Deep Light Enhancement Without Paired Supervision
+T2  - IEEE Transactions on Image Processing
+SP  - 2340
+EP  - 2349
+AU  - Y. Jiang
+AU  - X. Gong
+AU  - D. Liu
+AU  - Y. Cheng
+AU  - C. Fang
+AU  - X. Shen
+AU  - J. Yang
+AU  - P. Zhou
+AU  - Z. Wang
+PY  - 2021
+KW  - Training
+KW  - Visualization
+KW  - Lighting
+KW  - Generative adversarial networks
+KW  - Gallium nitride
+KW  - Adaptation models
+KW  - Training data
+KW  - Low-light enhancement
+KW  - generative adversarial networks
+KW  - unsupervised learning
+DO  - 10.1109/TIP.2021.3051462
+JO  - IEEE Transactions on Image Processing
+IS  - 
+SN  - 1941-0042
+VO  - 30
+VL  - 30
+JA  - IEEE Transactions on Image Processing
+Y1  - 2021
+AB  - Deep learning-based methods have achieved remarkable success in image restoration and enhancement, but are they still competitive when there is a lack of paired training data? As one such example, this paper explores the low-light image enhancement problem, where in practice it is extremely challenging to simultaneously take a low-light and a normal-light photo of the same visual scene. We propose a highly effective unsupervised generative adversarial network, dubbed EnlightenGAN, that can be trained without low/normal-light image pairs, yet proves to generalize very well on various real-world test images. Instead of supervising the learning using ground truth data, we propose to regularize the unpaired training using the information extracted from the input itself, and benchmark a series of innovations for the low-light image enhancement problem, including a global-local discriminator structure, a self-regularized perceptual loss fusion, and the attention mechanism. Through extensive experiments, our proposed approach outperforms recent methods under a variety of metrics in terms of visual quality and subjective user study. Thanks to the great flexibility brought by unpaired training, EnlightenGAN is demonstrated to be easily adaptable to enhancing real-world images from various domains. Our codes and pre-trained models are available at: https://github.com/VITA-Group/EnlightenGAN.
+ER  - 
+
+TY  - JOUR
+TI  - Detail-Enhanced Multi-Scale Exposure Fusion
+T2  - IEEE Transactions on Image Processing
+SP  - 1243
+EP  - 1252
+AU  - Z. Li
+AU  - Z. Wei
+AU  - C. Wen
+AU  - J. Zheng
+PY  - 2017
+KW  - Algorithm design and analysis
+KW  - Tensile stress
+KW  - Imaging
+KW  - Optimization
+KW  - Signal processing algorithms
+KW  - Dynamic range
+KW  - Heuristic algorithms
+KW  - Exposure fusion
+KW  - differently exposed images
+KW  - weighted guided image filter
+KW  - low-light imaging
+KW  - weighted structure tensor
+DO  - 10.1109/TIP.2017.2651366
+JO  - IEEE Transactions on Image Processing
+IS  - 3
+SN  - 1941-0042
+VO  - 26
+VL  - 26
+JA  - IEEE Transactions on Image Processing
+Y1  - March 2017
+AB  - Multi-scale exposure fusion is an effective image enhancement technique for a high dynamic range (HDR) scene. In this paper, a new multi-scale exposure fusion algorithm is proposed to merge differently exposed low dynamic range (LDR) images by using the weighted guided image filter to smooth the Gaussian pyramids of weight maps for all the LDR images. Details in the brightest and darkest regions of the HDR scene are preserved better by the proposed algorithm without relative brightness change in the fused image. In addition, a new weighted structure tensor is introduced to the differently exposed images and it is adopted to design a detail extraction component for the proposed fusion algorithm, such that users are allowed to manipulate fine details in the enhanced image according to their preference. The proposed multi-scale exposure fusion algorithm is also applied to design a simple single image brightening algorithm for both low-light imaging and back-light imaging.
+ER  - 
+
+TY  - JOUR
+TI  - CameraNet: A Two-Stage Framework for Effective Camera ISP Learning
+T2  - IEEE Transactions on Image Processing
+SP  - 2248
+EP  - 2262
+AU  - Z. Liang
+AU  - J. Cai
+AU  - Z. Cao
+AU  - L. Zhang
+PY  - 2021
+KW  - Image color analysis
+KW  - Task analysis
+KW  - Pipelines
+KW  - Noise reduction
+KW  - Image restoration
+KW  - Cameras
+KW  - Colored noise
+KW  - Image signal processing
+KW  - image restoration
+KW  - image enhancement
+KW  - convolutional neural networks
+DO  - 10.1109/TIP.2021.3051486
+JO  - IEEE Transactions on Image Processing
+IS  - 
+SN  - 1941-0042
+VO  - 30
+VL  - 30
+JA  - IEEE Transactions on Image Processing
+Y1  - 2021
+AB  - Traditional image signal processing (ISP) pipeline consists of a set of cascaded image processing modules onboard a camera to reconstruct a high-quality sRGB image from the sensor raw data. Recently, some methods have been proposed to learn a convolutional neural network (CNN) to improve the performance of traditional ISP. However, in these works usually a CNN is directly trained to accomplish the ISP tasks without considering much the correlation among the different components in an ISP. As a result, the quality of reconstructed images is barely satisfactory in challenging scenarios such as low-light imaging. In this paper, we firstly analyze the correlation among the different tasks in an ISP, and categorize them into two weakly correlated groups: restoration and enhancement. Then we design a two-stage network, called CameraNet, to progressively learn the two groups of ISP tasks. In each stage, a ground truth is specified to supervise the subnetwork learning, and the two subnetworks are jointly fine-tuned to produce the final output. Experiments on three benchmark datasets show that the proposed CameraNet achieves consistently compelling reconstruction quality and outperforms the recently proposed ISP learning methods.
+ER  - 
+
+TY  - JOUR
+TI  - Pixel-Wise Wasserstein Autoencoder for Highly Generative Dehazing
+T2  - IEEE Transactions on Image Processing
+SP  - 5452
+EP  - 5462
+AU  - G. Kim
+AU  - S. W. Park
+AU  - J. Kwon
+PY  - 2021
+KW  - Tensors
+KW  - Image enhancement
+KW  - Lighting
+KW  - Network architecture
+KW  - Estimation
+KW  - Channel estimation
+KW  - Transforms
+KW  - Dehazing
+KW  - wasserstein autoencoder
+KW  - image enhancement
+DO  - 10.1109/TIP.2021.3084743
+JO  - IEEE Transactions on Image Processing
+IS  - 
+SN  - 1941-0042
+VO  - 30
+VL  - 30
+JA  - IEEE Transactions on Image Processing
+Y1  - 2021
+AB  - We propose a highly generative dehazing method based on pixel-wise Wasserstein autoencoders. In contrast to existing dehazing methods based on generative adversarial networks, our method can produce a variety of dehazed images with different styles. It significantly improves the dehazing accuracy via pixel-wise matching from hazy to dehazed images through 2-dimensional latent tensors of the Wasserstein autoencoder. In addition, we present an advanced feature fusion technique to deliver rich information to the latent space. For style transfer, we introduce a mapping function that transforms existing latent spaces to new ones. Thus, our method can produce highly generative haze-free images with various tones, illuminations, and moods, which induces several interesting applications, including low-light enhancement, daytime dehazing, nighttime dehazing, and underwater image enhancement. Experimental results demonstrate that our method quantitatively outperforms existing state-of-the-art methods for synthetic and real-world datasets, and simultaneously generates highly generative haze-free images, which are qualitatively diverse.
+ER  - 
+
+TY  - JOUR
+TI  - Rain-Free and Residue Hand-in-Hand: A Progressive Coupled Network for Real-Time Image Deraining
+T2  - IEEE Transactions on Image Processing
+SP  - 7404
+EP  - 7418
+AU  - K. Jiang
+AU  - Z. Wang
+AU  - P. Yi
+AU  - C. Chen
+AU  - Z. Wang
+AU  - X. Wang
+AU  - J. Jiang
+AU  - C. -W. Lin
+PY  - 2021
+KW  - Rain
+KW  - Customer relationship management
+KW  - Feature extraction
+KW  - Computational modeling
+KW  - Task analysis
+KW  - Image restoration
+KW  - Degradation
+KW  - Image deraining
+KW  - multi-scale fusion
+KW  - non-local network
+KW  - attention mechanism
+DO  - 10.1109/TIP.2021.3102504
+JO  - IEEE Transactions on Image Processing
+IS  - 
+SN  - 1941-0042
+VO  - 30
+VL  - 30
+JA  - IEEE Transactions on Image Processing
+Y1  - 2021
+AB  - Rainy weather is a challenge for many vision-oriented tasks (e.g., object detection and segmentation), which causes performance degradation. Image deraining is an effective solution to avoid performance drop of downstream vision tasks. However, most existing deraining methods either fail to produce satisfactory restoration results or cost too much computation. In this work, considering both effectiveness and efficiency of image deraining, we propose a progressive coupled network (PCNet) to well separate rain streaks while preserving rain-free details. To this end, we investigate the blending correlations between them and particularly devise a novel coupled representation module (CRM) to learn the joint features and the blending correlations. By cascading multiple CRMs, PCNet extracts the hierarchical features of multi-scale rain streaks, and separates the rain-free content and rain streaks progressively. To promote computation efficiency, we employ depth-wise separable convolutions and a U-shaped structure, and construct CRM in an asymmetric architecture to reduce model parameters and memory footprint. Extensive experiments are conducted to evaluate the efficacy of the proposed PCNet in two aspects: (1) image deraining on several synthetic and real-world rain datasets and (2) joint image deraining and downstream vision tasks (e.g., object detection and segmentation). Furthermore, we show that the proposed CRM can be easily adopted to similar image restoration tasks including image dehazing and low-light enhancement with competitive performance. The source code is available at https://github.com/kuijiang0802/PCNet.
+ER  - 
+
+TY  - JOUR
+TI  - Robust Depth Estimation Using Auto-Exposure Bracketing
+T2  - IEEE Transactions on Image Processing
+SP  - 2451
+EP  - 2464
+AU  - S. Im
+AU  - H. -G. Jeon
+AU  - I. S. Kweon
+PY  - 2019
+KW  - Cameras
+KW  - Estimation
+KW  - Optical imaging
+KW  - Three-dimensional displays
+KW  - Noise reduction
+KW  - Photography
+KW  - Depth estimation
+KW  - exposure fusion
+KW  - image denoising
+KW  - 3D reconstruction
+KW  - geometry
+KW  - convolutional neural network
+DO  - 10.1109/TIP.2018.2886777
+JO  - IEEE Transactions on Image Processing
+IS  - 5
+SN  - 1941-0042
+VO  - 28
+VL  - 28
+JA  - IEEE Transactions on Image Processing
+Y1  - May 2019
+AB  - As the computing power of handheld devices grows, there has been increasing interest in the capture of depth information to enable a variety of photographic applications. However, under low-light conditions, most devices still suffer from low imaging quality and inaccurate depth acquisition. To address the problem, we present a robust depth estimation method from a short burst shot with varied intensity (i.e., auto-exposure bracketing) and/or strong noise (i.e., high ISO). Our key idea synergistically combines deep convolutional neural networks with a geometric understanding of the scene. We introduce a geometric transformation between optical flow and depth tailored for burst images, enabling our learning-based multi-view stereo matching to be performed effectively. We then describe our depth estimation pipeline that incorporates this geometric transformation into our residual-flow network. It allows our framework to produce an accurate depth map even with a bracketed image sequence. We demonstrate that our method outperforms the state-of-the-art methods for various datasets captured by a smartphone and a DSLR camera. Moreover, we show that the estimated depth is applicable for image quality enhancement and photographic editing.
+ER  - 
+
+
